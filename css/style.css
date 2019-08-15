@@ -10,6 +10,7 @@
 --------------------------------------------------------------*/
 body {
   --bg-color-base:#fdd73d;
+  --bg-color-base-hover:#ad8d0d;
   background-color: #fff;
   color: #333;
 }
@@ -70,15 +71,15 @@ span {
 }
 
 #features .img-fluid {
-  height: 250px;
+  /*height: 250px;*/
   margin-bottom: 30px;
   width: 200px;
 }
 
-#get-started .img-fluid {
-  height: 60px;
+#visi-misi .img-fluid {
+  height: 140px;
   margin-bottom: 30px;
-  width: 60px;
+  width: 140px;
 }
 
 .container-full {
@@ -139,7 +140,7 @@ span {
 }
 
 .back-to-top:hover {
-  background: #55b03f;
+  background: #ad8d0d;
   color: #fff;
 }
 
@@ -152,11 +153,13 @@ span {
   left: 0;
   top: 0;
   right: 0;
-  height: 48px;
+  height: 50px;
   z-index: 3;
   transition: all 0.5s ease;
 }
-
+#header img{
+  width: 29%;
+}
 #header #logo {
   padding: 6px 0 0 0;
 }
@@ -197,7 +200,7 @@ span {
 #hero {
   width: 100%;
   height: calc(100vh - 40px);
-  /*background: url(../img/hero-bg.png) center bottom no-repeat;*/
+  background: url(../img/hero-bg-1.png) center bottom no-repeat;
   background-size: 100%;
   position: relative;
   margin-top: 40px;
@@ -213,7 +216,7 @@ span {
 #hero .hero-container {
   position: absolute;
   bottom: 0;
-  top: 65%;
+  top: 60%;
   left: 0;
   right: 0;
   display: flex;
@@ -233,6 +236,10 @@ span {
 }
 
 @media (max-width: 768px) {
+
+#header img{
+  width: 40%;
+}
 
 #hero .hero-container {
   top: 50%;
@@ -590,38 +597,38 @@ body.mobile-nav-active #mobile-nav-toggle i {
 
 /* Get Started Section
 --------------------------------*/
-#get-started {
+#visi-misi {
   display: inline-block;
   height: 100%;
   width: 100%;
 }
 
-#get-started .feature-block {
+#visi-misi .feature-block {
   background: #fff none repeat scroll 0 0;
   padding: 30px 20px;
   transition: all 0.5s ease-in-out 0s;
 }
 
 @media (max-width: 991px) {
-  #get-started .feature-block {
+  #visi-misi .feature-block {
     margin-bottom: 30px;
   }
 }
 
-#get-started .feature-block:hover {
+#visi-misi .feature-block:hover {
   box-shadow: 0 0 35px rgba(0, 0, 0, 0.1);
   transition: all 0.5s ease-in-out 0s;
 }
 
-#get-started .feature-block h4 {
+#visi-misi .feature-block h4 {
   margin-bottom: 20px;
 }
 
-#get-started .feature-block p {
+#visi-misi .feature-block p {
   margin-bottom: 20px;
 }
 
-#get-started .feature-block a {
+#visi-misi .feature-block a {
   color: #505050;
   font-size: 12px;
   font-weight: 600;
@@ -630,21 +637,21 @@ body.mobile-nav-active #mobile-nav-toggle i {
   transition: 0.3s;
 }
 
-#get-started .feature-block a:hover {
+#visi-misi .feature-block a:hover {
   color: var(--bg-color-base);
 }
 
 /* About Us Section
 --------------------------------*/
-#about-us img {
+#new-event img {
   max-width: 100%;
 }
 
-#about-us .about-content {
+#new-event .about-content {
   padding-top: 60px;
 }
 
-#about-us .about-content h2 {
+#new-event .about-content h2 {
   color: #252525;
   font-family: "roboto";
   font-size: 39px;
@@ -654,17 +661,17 @@ body.mobile-nav-active #mobile-nav-toggle i {
   text-transform: capitalize;
 }
 
-#about-us .about-content span {
+#new-event .about-content span {
   font-weight: 700;
   padding-right: 10px;
   text-transform: uppercase;
 }
 
-#about-us .about-content ul li {
+#new-event .about-content ul li {
   line-height: 36px;
 }
 
-#about-us .about-content ul li .fa {
+#new-event .about-content ul li .fa {
   padding-right: 20px;
 }
 
@@ -732,7 +739,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 /* Video Section
 --------------------------------*/
 #video {
-  background: url(../img/video-bg.jpg) center center;
+  /*background: url(../img/video-bg.jpg) center center;*/
   background-repeat: no-repeat;
   background-size: cover;
   height: 400px;
@@ -1058,7 +1065,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #pricing .block-pricing .table .table_btn a:hover {
-  background: #55b03f;
+  background: #ad8d0d;
 }
 
 #pricing .block-pricing .table .table_btn a .fa {
@@ -1127,7 +1134,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 /* Newsletter Section
 --------------------------------*/
 #newsletter {
-  background: transparent url(../img/ponorogo-bg.jpg) no-repeat center top fixed;
+  /*background: transparent url(../img/ponorogo-bg.jpg) no-repeat center top fixed;*/
   background-size: cover;
 }
 
@@ -1179,7 +1186,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #newsletter .btn:hover {
-  background: #55b03f;
+  background: #ad8d0d;
 }
 
 #newsletter .btn .fa {
@@ -1205,7 +1212,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #newsletter ul li:hover {
-  background: #55b03f;
+  background: #ad8d0d;
 }
 
 #newsletter ul li .fa {
@@ -1258,7 +1265,7 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #contact .social-links a:hover {
-  background: #55b03f;
+  background: #ad8d0d;
   color: #fff;
 }
 
@@ -1311,7 +1318,8 @@ body.mobile-nav-active #mobile-nav-toggle i {
 }
 
 #contact .form button[type="submit"]:hover {
-  background: #92d283;
+  background: #ad8d0d;
+  cursor: pointer;
 }
 
 /*--------------------------------------------------------------
@@ -1374,3 +1382,5 @@ body.mobile-nav-active #mobile-nav-toggle i {
   letter-spacing: 0;
   color: var(--bg-color-base);
 }
+
+

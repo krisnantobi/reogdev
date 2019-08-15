@@ -91,6 +91,7 @@ jQuery(document).ready(function($) {
     if (ferror) return false;
     else var str = $(this).serialize();
     var action = $(this).attr('action');
+    alert("Makasih yaaa")
     if( ! action ) {
       action = 'contactform/contactform.php';
     }
