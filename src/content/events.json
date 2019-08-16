@@ -1,9 +1,21 @@
 [
-
+	{
+		"img" : "img/events/4.png",
+		"title" : "Build Static site",
+		"body" : "Apa sih itu static site dan gimana memanfaatkan github untuk membangun static site",
+		"url" : ""
+	},
+	{
+		"img" : "img/events/2.jpeg",
+		"title" : "The Importance of GIT",
+		"body" : "Git saat ini seperti kebutuhan pokok bagi para programer. Lalu seberapa penting sih GIT ini ? ",
+		"url" : ""
+	},
 	{
 		"img" : "img/events/3.jpg",
-		"title" : "framework Laravel dan CI",
+		"title" : "Framework Laravel dan CI",
 		"body" : "Memahami gimana cara menginstall framework Laravel dan CI sekaligus membuat infrastruktur yang konsisten saat deployment",
 		"url" : "https://forms.gle/azZGkdyB62g5ywnV6"
 	}
+	
 ]
