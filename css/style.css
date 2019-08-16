@@ -237,6 +237,10 @@ span {
 
 @media (max-width: 768px) {
 
+#new-event img {
+  max-width: 70%;
+}
+
 #header img{
   width: 40%;
 }
@@ -264,6 +268,11 @@ span {
     line-height: 24px;
     margin-bottom: 30px;
   }
+  
+  #new-event img {
+    max-width: 70%;
+  }
+
 }
 
 #hero img {

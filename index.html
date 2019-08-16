@@ -38,8 +38,37 @@
 
 <body>
 
-  <div w3-include-html="src/pages/header.html"></div>
-  <div w3-include-html="src/pages/jumbotron.html"></div>
+  <header id="header" class="header header-hide">
+    <div class="container">
+      <div id="logo" class="pull-left">
+        <!-- <h1><a href="#body" class="scrollto">Reog<span>Dev</span></a></h1> -->
+        <img src="img/logo-black.png" >
+
+      </div>
+
+      <nav id="nav-menu-container">
+        <ul class="nav-menu">
+          <li class="menu-active"><a href="#hero">Home</a></li>
+          <li><a href="#new-event">New Event</a></li>
+          <li><a href="#features">Events</a></li>
+          <li><a href="#screenshots">Galery</a></li>
+          <li><a href="#contact">Kenalan Yuk</a></li>
+        </ul>
+      </nav><!-- #nav-menu-container -->
+    </div>
+  </header><!-- #header -->
+
+  <section id="hero" class="wow fadeIn">
+    <div class="hero-container">
+       <h1>
+        <span style="color:#777">Hi. Sahabat</span> 
+        <span style="color:#777">Reog</span>Dev
+      </h1>
+      <h2>Yuk Kumpul & Belajar Bareng di ReogDev</h2>
+      <img src="img/hero-img-4.png" alt="Hero Imgs">
+    </div>
+  </section><!-- #hero -->
+
   <!--==========================
     Visi & Misi
   ============================-->
@@ -147,7 +176,7 @@
       <div class="section-title text-center">
         <h2>Daftarkan Diri Yuk :)</h2>
         <p class="separator">
-          Hi sobat, bantu kami tahu siapa kamu ya. caranya isi kolom dibawah lalu kirim deh. Selesaaaiii !!! 
+          Hi sobat, bantu kami tahu siapa kamu ya. caranya klik button dibawah.
         </p>
       </div>
     </div>
@@ -156,29 +185,9 @@
       <div class="row justify-content-center">
 
         <div class="col-lg-8 col-md-8">
-          <div class="form">
-            <div id="sendmessage">Your message has been sent. Thank you!</div>
-            <div id="errormessage"></div>
-            <form action="" method="post" role="form" class="contactForm">
-              <div class="form-group">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Nama kamu siapa ?" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Email nya juga dooong :D" data-rule="email" data-msg="Please enter a valid email" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group">
-                <input type="text" class="form-control" name="hobby" id="hobby" placeholder="Terus hobi kamu apa ?" data-rule="minlen:4" data-msg="Please enter at least 8 chars of hobby" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" name="description" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Cerita dikit dooong tentang dirimu :)"></textarea>
-                <div class="validation"></div>
-              </div>
-              <div class="text-center"><button id="sendData" type="submit">KIRIM ke REOGDEV</button></div>
-            </form>
-          </div>
+          <center> 
+              <a style="border-radius: 0px; color: #f0cc3c; background: #fff" target="_blank" href="https://forms.gle/adwY356N5ugftkoc6" class="btn-get-started scrollto">Daftar in Aja</a>
+          </center>
         </div>
       </div>
     </div>
