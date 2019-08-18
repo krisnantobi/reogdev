@@ -25,7 +25,7 @@ jQuery(document).ready(function( $ ) {
   });
 
   // Initiate the wowjs animation library
-  new WOW().init();
+  // new WOW().init();
 
   // Initiate superfish on nav menu
   $('.nav-menu').superfish({
@@ -110,7 +110,7 @@ jQuery(document).ready(function( $ ) {
   });
 
   // Modal video
-  new ModalVideo('.js-modal-btn', {channel: 'youtube'});
+  // new ModalVideo('.js-modal-btn', {channel: 'youtube'});
 
   // Init Owl Carousel
   $('.owl-carousel').owlCarousel({
