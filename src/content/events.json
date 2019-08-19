@@ -1,21 +1,23 @@
 [
 	{
-		"img" : "img/events/4.jpg",
+		"img" : "img/events/4/4_bxqvdv_c_scale,w_1400.jpg",
 		"title" : "Build Static site",
 		"body" : "Apa sih itu static site dan gimana memanfaatkan github untuk membangun static site",
-		"url" : ""
+		"url" : "",
+		"srcset" : "img/events/4/4_bxqvdv_c_scale,w_200.jpg 200w,img/events/4/4_bxqvdv_c_scale,w_342.jpg 342w,img/events/4/4_bxqvdv_c_scale,w_463.jpg 463w,img/events/4/4_bxqvdv_c_scale,w_557.jpg 557w,img/events/4/4_bxqvdv_c_scale,w_663.jpg 663w,img/events/4/4_bxqvdv_c_scale,w_765.jpg 765w,img/events/4/4_bxqvdv_c_scale,w_870.jpg 870w,img/events/4/4_bxqvdv_c_scale,w_963.jpg 963w,img/events/4/4_bxqvdv_c_scale,w_1066.jpg 1066w,img/events/4/4_bxqvdv_c_scale,w_1152.jpg 1152w,img/events/4/4_bxqvdv_c_scale,w_1247.jpg 1247w,img/events/4/4_bxqvdv_c_scale,w_1332.jpg 1332w,img/events/4/4_bxqvdv_c_scale,w_1400.jpg 1400w"
 	},
 	{
-		"img" : "img/events/2.jpeg",
-		"title" : "The Importance of GIT",
-		"body" : "Git saat ini seperti kebutuhan pokok bagi para programer. Lalu seberapa penting sih GIT ini ? ",
-		"url" : ""
-	},
-	{
-		"img" : "img/events/3.jpg",
+		"img" : "img/events/3/3_dvykwd_c_scale,w_1086.jpg",
 		"title" : "Framework Laravel dan CI",
 		"body" : "Memahami gimana cara menginstall framework Laravel dan CI sekaligus membuat infrastruktur yang konsisten saat deployment",
-		"url" : "https://forms.gle/azZGkdyB62g5ywnV6"
+		"url" : "",
+		"srcset" : "img/events/3/3_dvykwd_c_scale,w_200.jpg 200w,img/events/3/3_dvykwd_c_scale,w_420.jpg 420w,img/events/3/3_dvykwd_c_scale,w_587.jpg 587w,img/events/3/3_dvykwd_c_scale,w_750.jpg 750w,img/events/3/3_dvykwd_c_scale,w_1086.jpg 1086w"
+	},
+	{
+		"img" : "img/events/2/2_v6jsg4_c_scale,w_914.jpg",
+		"title" : "The Importance of GIT",
+		"body" : "Git saat ini seperti kebutuhan pokok bagi para programer. Lalu seberapa penting sih GIT ini ? ",
+		"url" : "https://forms.gle/azZGkdyB62g5ywnV6",
+		"srcset" : "img/events/2/2_v6jsg4_c_scale,w_200.jpg 200w,img/events/2/2_v6jsg4_c_scale,w_339.jpg 339w,img/events/2/2_v6jsg4_c_scale,w_444.jpg 444w,img/events/2/2_v6jsg4_c_scale,w_557.jpg 557w,img/events/2/2_v6jsg4_c_scale,w_663.jpg 663w,img/events/2/2_v6jsg4_c_scale,w_769.jpg 769w,img/events/2/2_v6jsg4_c_scale,w_914.jpg 914w"
 	}
-	
 ]

@@ -54,7 +54,9 @@ function events() {
     		$('#events').append(''+    	
 		        '<div class="col-md-6 col-lg-3">'+
 		          '<div class="feature-block">'+
-		            '<img src="'+event.img+'" alt="img" class="img-fluid">'+
+		            '<img sizes="(max-width: 1400px) 100vw, 1400px"'+
+                        'src="'+event.img+'" alt="img" class="img-fluid"'+
+                        'srcset="'+event.srcset+'"  >'+
 		            '<h4>'+event.title+'</h4>'+
 		            '<p>'+event.body+'</p>'+
 		          '</div>'+
