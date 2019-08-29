@@ -1,0 +1,32 @@
+Aturan Grup ReogDev
+
+1. Menjunjung tinggi ETIKA berkomunikasi.
+2. Dilarang bertanya atau berdiskusi di luar topik.
+3. Hari Sabtu dan Minggu digunakan untuk membangun networking. Bahasan boleh bebas diluar topik namun tetap beretika.
+4. Kirim Sticker dan GIF hanya diperbolehkan di hari Sabtu dan Minggu.
+5. Dilarang share promosi apapun tanpa izin dari admin.
+6. Dilarang share lowongan pekerjaan apapun.
+7. Dilarang share link dan konten yang tidak relevan dengan pembahasan grup.
+8. Dilarang memasukkan bot tanpa izin dari admin.
+9. Silakan mention admin jika ada pelanggaran.
+  Mention Admins:
+    - @krisnantobi
+
+Sanksi pelanggaran
+
+1. Pelanggaran ringan akan diberi peringatan serta pesan akan dihapus.
+2. Pelanggaran berat akan dibanned.
+3. Penentuan penentuan ringan atau berat nya pelanggaran sepenuhnya hak prerogatif admin.
+
+Etika Bertanya di Group ReogDev
+
+1. Gunakan bahasa yang sopan.
+2. Jika bertanya tentang problem solving, mohon dijelaskan secara mendetail tentang:
+	* Masalah apa yang dialami.
+	* Usaha apa yang sudah dilakukan.
+	* Seperti apa hasil yang diinginkan.
+	* Tunjukkan error message nya
+3. Gunakan paste tool seperti pastebin.com, hastebin.com, gist.github.com, dll. Untuk mengirimkan source code yang panjang.
+4. Jangan memfoto output pada layar, alangkah baik nya jika di screenshot
+5. Bersabar jika pertanyaan tidak mendapatkan respon, karena tidak semua orang di grup mampu secara waktu dan ilmu untuk menjawab pertanyaan Anda.
+6. Ucapkan terima kasih kepada orang yang telah membantu masalah Anda.
